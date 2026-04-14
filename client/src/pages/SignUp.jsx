@@ -33,6 +33,8 @@ const SignUp = () => {
 
       navigate("/sign-in");
     } catch (error) {
+      console.log(error);
+
       setLoading(false);
       setError(true);
     }

@@ -8,13 +8,13 @@ const Header = () => {
           <h1 className="font-bold">Auth App</h1>
         </Link>
         <ul className="flex gap-4">
-          <Link>
+          <Link to="/">
             <li>Home</li>
           </Link>
-          <Link>
+          <Link to="/about">
             <li>About</li>
           </Link>
-          <Link>
+          <Link to="/sign-in">
             <li>Sign In</li>
           </Link>
         </ul>
